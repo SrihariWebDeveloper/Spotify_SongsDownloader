@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from './componts/navBar/NavBar.jsx'
 import Header from './componts/Header/Header.jsx'
 import Footer from './componts/footer/Footer.jsx'
-import './app.css'
+import './App.css'
 
 
 const App = () => {
