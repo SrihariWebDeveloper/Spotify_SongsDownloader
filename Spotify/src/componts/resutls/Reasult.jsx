@@ -3,10 +3,10 @@ import React from 'react'
 const Reasult = ({image,link,album,artist}) => {
   return (
     <div className="text-center pt-2 overflow-hidden">
-      <div className="pt-5 w-25 h-25 relative left-[40%] max-sm:pl-14 max-sm:left-0">
+      <div className="pt-5 w-72 h-72 relative left-[40%] max-sm:pl-8 max-sm:left-0 max-sm:w-96 max-sm:h-96">
         <img src={image} alt="" className="shadow-2xl"/>
       </div>
-      <div className="pt-4">
+      <div className="pt-6">
         <h1>{album}</h1>
         <p>{artist}</p>
       </div>
